@@ -1,0 +1,47 @@
+#include "shapes2.h"
+#include <string>
+
+const float PIE = 3.14159265f;
+
+Shp::Shp () {}
+
+Shp::~Shp () {}
+
+string Shp::draw() const {
+  return "drew a Shp";
+}
+
+float Shp::area() {
+  return 0;
+}
+
+Cir::Cir() {
+
+ radius = 0;
+}
+
+Cir::Cir(float newR) : radius(newR) {
+
+}
+
+std::string Cir::draw() {
+
+ return "drew a Cir";
+}
+
+float Cir::area() {
+
+ return (radius * radius * PIE);
+}
+
+Sq::Sq(float x_) : dn(x_) {}
+
+Sq::~Sq() {}
+
+string Sq::draw() const {
+  return "drew a Sq";
+}
+
+float Sq::area() {
+  return (dn * dn);
+}
