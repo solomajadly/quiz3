@@ -1,0 +1,3 @@
+/home/majadlysolo/Desktop/QUIZ3Cir/build/gtest-1.6.0/CMakeFiles/gtest.dir
+/home/majadlysolo/Desktop/QUIZ3Cir/build/gtest-1.6.0/CMakeFiles/gtest_main.dir
+/home/majadlysolo/Desktop/QUIZ3Cir/build/CMakeFiles/tests.dir
